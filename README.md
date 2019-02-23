@@ -13,9 +13,8 @@ $ git clone https://github.com/Nsharma96/FullStack.git
 ```
 - Unzip fsnd-virtual-machine.zip(Virtual machine Files)..
 - cd to vagrant directory that is where ever you unzipped the fullstack-nanodegree-vm-master.zip.
-- In windows 10 file downloads in download folder and is unzipped in the same folder. so cd commands looks like this.
 ```
-$ cd Downloads/FSND-Virtual-Machine/vagrant/catalog/
+$ cd FSND-Virtual-Machine/vagrant/
 ```
 - Copy the **ReportingTool.py** and **newsdata.sql** to /FSND-Virtual-Machine/vagrant/catalog/ directory.
 - Run the Virtual Machine and ssh to vm. 
@@ -25,7 +24,7 @@ $ vagrant ssh
 ```
 - Navigate to catalog Directory.
 ```
-$ cd /vagrant/catalog
+$ cd /catalog
 ```
 - Load the data into PostgreSql database.
 ```

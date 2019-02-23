@@ -17,7 +17,7 @@ $ git clone https://github.com/Nsharma96/FullStack.git
 ```
 $ Change directory to FSND-Virtual-Machine/vagrant/
 ```
-- Copy the **ReportingTool.py** and **newsdata.sql** to /FSND-Virtual-Machine/vagrant/catalog/ directory.
+- Copy the **ReportingTool.py** and **newsdata.sql**(unzip from newsdata.sql) to /FSND-Virtual-Machine/vagrant/catalog/ directory.
 - Run the Virtual Machine and ssh to vm. 
 ```
 $ vagrant up

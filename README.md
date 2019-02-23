@@ -12,12 +12,12 @@ This is a reporting tool made in Python program using the psycopg2 module to con
 ```
 $ git clone https://github.com/Nsharma96/FullStack.git
 ```
-- Unzip fsnd-virtual-machine.zip(Virtual machine Files)..
+- Unzip fsnd-virtual-machine.zip(Virtual machine configration files).
 - cd to vagrant directory that is where ever you unzipped the fullstack-nanodegree-vm-master.zip.
 ```
 $ Change directory to FSND-Virtual-Machine/vagrant/
 ```
-- Copy the **ReportingTool.py** and **newsdata.sql**(unzip from newsdata.sql) to /FSND-Virtual-Machine/vagrant/catalog/ directory.
+- Copy the **ReportingTool.py** and **newsdata.sql**(unzipped from newsdata.zip) to /FSND-Virtual-Machine/vagrant/catalog/ directory.
 - Run the Virtual Machine and ssh to vm. 
 ```
 $ vagrant up

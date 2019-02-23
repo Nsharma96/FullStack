@@ -6,6 +6,7 @@ This is a reporting tool made in Python program using the psycopg2 module to con
 - Install Vagrant from [Vagrant](https://www.vagrantup.com/)
 - Download or clone [Virtual machine configration file](https://github.com/udacity/fullstack-nanodegree-vm)
 - Install [git](https://git-scm.com/)
+- Install python.
 # Usage
 - Download and unzip or clone this repository.Clonning can be done with following command.
 ```
@@ -14,7 +15,7 @@ $ git clone https://github.com/Nsharma96/FullStack.git
 - Unzip fsnd-virtual-machine.zip(Virtual machine Files)..
 - cd to vagrant directory that is where ever you unzipped the fullstack-nanodegree-vm-master.zip.
 ```
-$ cd FSND-Virtual-Machine/vagrant/
+$ Change directory to FSND-Virtual-Machine/vagrant/
 ```
 - Copy the **ReportingTool.py** and **newsdata.sql** to /FSND-Virtual-Machine/vagrant/catalog/ directory.
 - Run the Virtual Machine and ssh to vm. 

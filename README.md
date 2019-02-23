@@ -54,7 +54,7 @@ news=> create view error_Matrix as select distinct extract(day from time ) as d 
 ### Run The tool
 - To See the output of reporting tool type.
 ```
-$ python ReportingTool.py
+$ python2 ReportingTool.py
 ```
 # Output
 - Output of the reporting tool is shown in the command line itself.Which answers following queries.

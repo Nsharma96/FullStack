@@ -15,9 +15,9 @@ $ git clone https://github.com/Nsharma96/FullStack.git
 - Unzip fsnd-virtual-machine.zip(Virtual machine configration files).
 - Change directory to vagrant directory that is where ever you unzipped the fullstack-nanodegree-vm-master.zip.
 ```
-$ cd to FSND-Virtual-Machine/vagrant/
+$ cd Downloads/fullstack-nanodegree-vm-master/vagrant
 ```
-- Copy the **ReportingTool.py** and **newsdata.sql**(unzipped from newsdata.zip) to /FSND-Virtual-Machine/vagrant/catalog/ directory.
+- Copy the **ReportingTool.py** and **newsdata.sql**(unzipped from newsdata.zip) to fullstack-nanodegree-vm-master/vagrant/catalog/ directory.
 - Run the Virtual Machine and ssh to vm. 
 ```
 $ vagrant up
@@ -43,7 +43,7 @@ This tool uses some psql views which need to be created before running Reporting
 $ psql -d news 
 ```
 to connect your database.
-- The create write following two sql commands to create necessary views.
+- Then create write following two sql commands to create necessary views.
 ```
 news=> create view authorViewSums as select articles.author, sum(artiView.num) as authorView from authors ,articles,(select path,count(path) as num from log where status like '%200%' group by path) as artiView where '/article/' || articles.slug = artiView.path and articles.author=authors.id group by articles.author order by authorView desc;
                                   

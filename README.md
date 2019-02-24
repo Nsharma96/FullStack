@@ -23,9 +23,9 @@ $ cd Downloads/fullstack-nanodegree-vm-master/vagrant
 $ vagrant up
 $ vagrant ssh
 ```
-- Navigate to catalog Directory.
+- Navigate to catalog Directory.If you cant find vagrant/catalog go back one or two directories and try again.
 ```
-$ cd /catalog
+$ cd vagrant/catalog
 ```
 - Load the data into PostgreSql database.
 ```

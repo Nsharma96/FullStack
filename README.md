@@ -1,4 +1,4 @@
-# Project Log Analysis 
+# Project ML-Bank
 This is a machine learning project made in python using pandas and sklearn libraries.The details for the dataset used in this project can be found here [Dataset](http://archive.ics.uci.edu/ml/datasets/Bank+Marketing).In this project we aim to build a classifier with good accuracy to maximize acquire percentage(Y%) and minimize marketing cost(X%)
 
 # Prerequisites
